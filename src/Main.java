@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args){
-        Author tolstoy = new Author("Лев", "Толстой");
+        Author tolstoy = new Author("Лев", "Толcтой");
         Author pushkin = new Author("Александр", "Пушкин");
 
         Book warAndPeace = new Book("Война и мир", 1867, tolstoy);
@@ -16,7 +16,7 @@ public class Main {
     }
 
     private static void print(Book book) {
-        System.out.println("Автор: " + book.getAuthor().getName() + " " + book.getAuthor().getSurname() + ", название: " + book.getTitle() + ", год издания: " + book.getYear());
+        System.out.println("Авторы: " + book.getAuthor().getName() + " " + book.getAuthor().getSurname() + ", название: " + book.getTitle() + ", год издания: " + book.getYear());
 
     }
 }
